@@ -35,7 +35,7 @@ def main():
         print("✅ Virtual Environment: ACTIVE (Your 'uv' bubble is working flawlessly!)")
     else:
         print("❌ Virtual Environment: NOT ACTIVE.")
-        print("   Did you forget to run 'uv venv' or select the right interpreter in VS Code?")
+        print("   Did you run this script using 'uv run python test_setup.py'?")
     
     print("-" * 60)
     print("\n🚀 You are fully equipped to build amazing things. Happy coding!\n")
